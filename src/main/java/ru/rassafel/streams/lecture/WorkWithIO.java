@@ -1,6 +1,5 @@
 package ru.rassafel.streams.lecture;
 
-import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.IOException;
 import java.net.URISyntaxException;
