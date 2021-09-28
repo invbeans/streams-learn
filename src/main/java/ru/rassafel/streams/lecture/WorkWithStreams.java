@@ -6,9 +6,9 @@ import java.util.stream.Collectors;
 /**
  * @author rassafel
  */
-public class Application {
+public class WorkWithStreams {
     public static void main(String[] args) {
-        Application application = new Application();
+        WorkWithStreams workWithStreams = new WorkWithStreams();
     }
 
     public void primitiveStreams() {
