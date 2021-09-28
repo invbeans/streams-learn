@@ -35,4 +35,24 @@ public class Application {
         System.out.println(integerList.equals(mappedIntegerList));
         System.out.println("integerList.getClass() = " + integerList.getClass());
     }
+
+    public void stringStream() {
+
+        String string = Arrays.stream(new String[]{
+                "Hello",
+                " Test ",
+                "Words",
+                "Lorem",
+                "Stream",
+                "lorem"
+            })
+            .map(String::toLowerCase)
+            .map(String::trim)
+            .collect(Collectors.groupingBy(str -> str))
+            .entrySet()
+            .stream()
+            .flatMap(ent -> ent.getValue().stream())
+            .collect(Collectors.joining(", ", "[", "]"));
+        System.out.println(string);
+    }
 }
