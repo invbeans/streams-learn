@@ -1,0 +1,100 @@
+Town Car, Lincoln, 2007, Orange
+X3, , 2005, Turquoise
+Lancer, Mitsubishi, 2010, Turquoise
+Mustang, Ford, 2003, Mauv
+Grand Caravan, Dodge, 2010, Purple
+Escalade EXT, Cadillac, 2003, Red
+Avenger, Dodge, 1999, Yellow
+Swift, Suzuki, 2007, Indigo
+Grand Prix, Pontiac, 2001, Aquamarine
+Equator, Suzuki, 2001, Turquoise
+Sonata, , 2001, Yellow
+Aerostar, Ford, 2003, Teal
+D250, Dodge, 2005, Red
+3 Series, BMW, 1998, Crimson
+i-370, Isuzu, 2009, Goldenrod
+57, Maybach, 2000, Crimson
+TrailBlazer, , 2003, Puce
+Optima, Kia, 2003, Mauv
+Ram 3500, Dodge, 2007, Orange
+3500, Ram, 2010, Goldenrod
+LHS, Chrysler, 2003, Yellow
+TT, Audi, 2005, Red
+Cobalt, Chevrolet, 2004, Fuscia
+R-Class, Mercedes-Benz, 2008, Crimson
+Quest, , 2001, Aquamarine
+Cougar, Mercury, 2009, Puce
+3500, Club, Coupe, GMC
+XF, Jaguar, 2007, Crimson
+A8, Audi, 2008, Red
+Prowler, Plymouth, 1999, Fuscia
+car, model, car, make
+C-MAX Hybrid, Ford, 2009, Red
+Viper, Dodge, 2009, Pink
+626, , 2009, Mauv
+Talon, Eagle, 2009, Turquoise
+Ram 50, Dodge, 2007, Maroon
+Camaro, Chevrolet, 2008, Red
+RX Hybrid, Lexus, 2008, Goldenrod
+900, Saab, 2008, Orange
+E-Class, Mercedes-Benz, 1999, Blue
+Cougar, Mercury, 2006, Teal
+Daewoo Magnus, Suzuki, 1998, Pink
+Envoy, GMC, 2004, Orange
+Explorer, Ford, 2006, Green
+Firebird, Pontiac, 1998, Green
+Sable, Mercury, 1998, Fuscia
+QX56, Infiniti, 2004, Puce
+del Sol, Honda, 2009, Turquoise
+Wrangler, Jeep, 2007, Puce
+Grand Prix, Pontiac, 1999, Crimson
+S-Class, Mercedes-Benz, 2003, Crimson
+Forenza, Suzuki, 2009, Turquoise
+SRX, Cadillac, 1998, Aquamarine
+Camaro, Chevrolet, 2010, Mauv
+Express 1500, Chevrolet, 2000, Indigo
+ES, Lexus, 1999, Orange
+Storm, Geo, 2000, Purple
+SLR McLaren, Mercedes-Benz, 1999, Maroon
+88, Oldsmobile, 2008, Orange
+Elan, Lotus, 2005, Indigo
+Skylark, Buick, 2008, Blue
+Accent, Hyundai, 2006, Crimson
+9-3, Saab, 2001, Blue
+Silverado 1500, Chevrolet, 2009, Teal
+Optima, Kia, 2004, Green
+Prizm, Chevrolet, 2005, Mauv
+Roadmaster, Buick, 2006, Aquamarine
+Grand Marquis, Mercury, 2005, Orange
+Escalade ESV, Cadillac, 2010, Goldenrod
+MPV, Mazda, 2007, Goldenrod
+6000, Pontiac, 1999, Khaki
+A5, Audi, 1998, Maroon
+XT, Subaru, 2007, Orange
+Escape, Ford, 1998, Red
+Matrix, Toyota, 1998, Khaki
+Neon, Dodge, 2009, Yellow
+Diablo, Lamborghini, 2006, Pink
+MPV, Mazda, 2007, Crimson
+Tracker, Geo, 2004, Aquamarine
+Continental, Lincoln, 2004, Mauv
+Vega, Chevrolet, 2010, Green
+9-7X, Saab, 2008, Maroon
+Cougar, Mercury, 2004, Blue
+GX, Lexus, 2004, Yellow
+G-Series G20, Chevrolet, 2007, Maroon
+Outlook, Saturn, 2007, Green
+Escape, Ford, 1999, Maroon
+Spectra, Kia, 2006, Red
+Ram 1500, Dodge, 2008, Mauv
+CL-Class, Mercedes-Benz, 2000, Fuscia
+MKX, Lincoln, 2010, Violet
+2500, Ram, 2002, Blue
+Journey, Dodge, 2004, Teal
+Titan, Nissan, 1999, Violet
+SRX, Cadillac, 2007, Blue
+Avalon, Toyota, 2010, Aquamarine
+Integra, Acura, 2010, Purple
+Chariot, Mitsubishi, 2010, Orange
+Century, Buick, 2009, Goldenrod
+Sparrow, Corbin, 2001, Yellow
