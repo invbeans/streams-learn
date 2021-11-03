@@ -1,4 +1,9 @@
-package ru.rassafel.solution.processor;
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package ru.rassafel.reflection.processor;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Field;
@@ -7,22 +12,29 @@ import java.util.Arrays;
 import java.util.Map;
 import java.util.HashMap;
 import lombok.SneakyThrows;
-import ru.rassafel.solution.annotation.ParseIndex;
+import ru.rassafel.reflection.annotation.ParseIndex;
 
+/**
+ *
+ * @author Buzuluchanka
+ */
 public class ParseIndexProcessor {
-    public final String delimeter = " ";
+    public final String delimiter = ",";
+    
     private Map<Class, Map<Integer, Method>> map = new HashMap<>();
     
     @SneakyThrows
     public boolean registerClass(String header, Class<?> clazz){
-        String[] headers = header.split(delimeter);
+        
+        String[] headers = header.split(delimiter);
         
         for(Field field : clazz.getDeclaredFields()){
             ParseIndex annotation = field.getAnnotation(ParseIndex.class);
             if(annotation != null){
+                //ищет сеттер
                 String setterName = "set" + field.getName().substring(0, 1).toUpperCase()
                     + field.getName().substring(1);
-                
+            
                 Method setter = clazz.getDeclaredMethod(setterName, field.getType());
                 int index = annotation.headerIndex();
                 if(index < 0){
@@ -40,41 +52,20 @@ public class ParseIndexProcessor {
         return true;
     }
     
-    
     @SneakyThrows
-    public <T> T parseObject(String line, Class<T> clazz, int maxValues){
+    public <T> T parseObject(String line, Class<T> clazz){
         Constructor<T> constructor = clazz.getConstructor();
-        
         T instance = constructor.newInstance();
         
-        String[] tempValues = line.split(delimeter);
-        String[] values = new String[maxValues];
-        boolean empty = false;
-        for (String tempValue : tempValues) {
-            if ("".equals(tempValue)) {
-                empty = true;
-                break;
-            }
-        }
-        if(empty) return null;
-        if("car model".equals(tempValues[0])) return null;
-        if(tempValues.length == maxValues + 1){
-            values[0] = tempValues[0] + " " + tempValues[1];
-            for(int i = 1; i < maxValues; i++) values[i] = tempValues[i + 1];
-        }
-        else{
-            values = tempValues;
-        }
+        String[] values = line.split(delimiter);
         
         Map<Integer, Method> integerMethodMap = map.get(clazz);
         for(Map.Entry<Integer, Method> entry : integerMethodMap.entrySet()){
             int key = entry.getKey();
-            entry.getValue().invoke(instance, values[key]); 
+            entry.getValue().invoke(instance, values[key]);
+            
         }
         return instance;
-
     }
     
-   
 }
-

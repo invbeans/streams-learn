@@ -32,7 +32,10 @@ public class Application {
         processor.registerClass(header, Car.class);
         while(iter.hasNext()){
             header = iter.next();
-            carList.add(processor.parseObject(header, Car.class, 4));
+            Car temp = processor.parseObject(header, Car.class, 4);
+            if(temp != null){
+                carList.add(temp);
+            }
         }
         ListIterator<Car> iterCarList = carList.listIterator();
         Iterable<Car> iterableCarList = () -> iterCarList;
@@ -84,10 +87,6 @@ public class Application {
         for(Map.Entry<String, List<String>> entry: groupByCarMaker.entrySet()){
             List<String> values = entry.getValue();
             String key = entry.getKey();
-            if(values.size() >= 2){
-                if(key.length() == 0) key = "empty";
-                carMakerNames.add(key);
-            }
         }
         
         carMakerNames = carMakerNames.stream().sorted().collect(Collectors.toList());

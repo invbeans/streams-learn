@@ -1,4 +1,3 @@
-=[X3  2005 Turquoise, Sonata  2001 Yellow, TrailBlazer  2003 Puce, Quest  2001 Aquamarine, 626  2009 Mauv]
 Lexus=[RX Hybrid Lexus 2008 Goldenrod, ES Lexus 1999 Orange, GX Lexus 2004 Yellow]
 Saturn=[Outlook Saturn 2007 Green]
 Subaru=[XT Subaru 2007 Orange]

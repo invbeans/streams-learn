@@ -1,5 +1,4 @@
 Town Car, Lincoln, 2007, Orange
-X3, , 2005, Turquoise
 Lancer, Mitsubishi, 2010, Turquoise
 Mustang, Ford, 2003, Mauv
 Grand Caravan, Dodge, 2010, Purple
@@ -8,13 +7,11 @@ Avenger, Dodge, 1999, Yellow
 Swift, Suzuki, 2007, Indigo
 Grand Prix, Pontiac, 2001, Aquamarine
 Equator, Suzuki, 2001, Turquoise
-Sonata, , 2001, Yellow
 Aerostar, Ford, 2003, Teal
 D250, Dodge, 2005, Red
 3 Series, BMW, 1998, Crimson
 i-370, Isuzu, 2009, Goldenrod
 57, Maybach, 2000, Crimson
-TrailBlazer, , 2003, Puce
 Optima, Kia, 2003, Mauv
 Ram 3500, Dodge, 2007, Orange
 3500, Ram, 2010, Goldenrod
@@ -22,7 +19,6 @@ LHS, Chrysler, 2003, Yellow
 TT, Audi, 2005, Red
 Cobalt, Chevrolet, 2004, Fuscia
 R-Class, Mercedes-Benz, 2008, Crimson
-Quest, , 2001, Aquamarine
 Cougar, Mercury, 2009, Puce
 3500, Club, Coupe, GMC
 XF, Jaguar, 2007, Crimson
@@ -31,7 +27,6 @@ Prowler, Plymouth, 1999, Fuscia
 car, model, car, make
 C-MAX Hybrid, Ford, 2009, Red
 Viper, Dodge, 2009, Pink
-626, , 2009, Mauv
 Talon, Eagle, 2009, Turquoise
 Ram 50, Dodge, 2007, Maroon
 Camaro, Chevrolet, 2008, Red
